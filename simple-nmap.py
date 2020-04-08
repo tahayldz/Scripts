@@ -51,8 +51,8 @@ class Tarama:
 if __name__ == "__main__":	
 
 
-	parser = argparse.ArgumentParser(description='Simple Local Network Scanner ')
-	parser.add_argument('-i', help='Ex:192.168.1.5 or 192.168.1.0/24')
+	parser = argparse.ArgumentParser(description='Simple Nmap ')
+	parser.add_argument('-i', help='Ex:192.168.1.5')
 	args = parser.parse_args()
 
 	if args.i == None:
