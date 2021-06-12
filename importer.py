@@ -8,7 +8,7 @@ ornek dosya girdisi
     tahayldz@gmail.com:bf49ab6b38b77362aa4a93afa98b53ffb697eb2ab427d2da27a6526595e893f9:naber
 '''
 
-mongo_db = "selam"
+mongo_db = "leakScraper"
 out_file = "cleanLeak.csv"
 fileIndex = []
 def format(fileName,leakName):
